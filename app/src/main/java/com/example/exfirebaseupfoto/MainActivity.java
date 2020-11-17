@@ -56,6 +56,7 @@ private EditText edIndice;
         //Danilo teste
         carregaWidgets();
         botoes();
+        //alterado merge versao02
         Toast.makeText(MainActivity.this, "Commit versão 02", Toast.LENGTH_LONG).show();
     }
     private void iniciarFirebase(){
