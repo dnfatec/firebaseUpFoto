@@ -57,6 +57,8 @@ private EditText edIndice;
         carregaWidgets();
         botoes();
         Toast.makeText(MainActivity.this, "Commit", Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "Commit2", Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "Commit2", Toast.LENGTH_LONG).show();
     }
     private void iniciarFirebase(){
         FirebaseApp.initializeApp(MainActivity.this);
