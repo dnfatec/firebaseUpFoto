@@ -53,8 +53,10 @@ private EditText edIndice;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         iniciarFirebase();
+        //Danilo teste
         carregaWidgets();
         botoes();
+        Toast.makeText(MainActivity.this, "Commit", Toast.LENGTH_LONG).show();
     }
     private void iniciarFirebase(){
         FirebaseApp.initializeApp(MainActivity.this);
